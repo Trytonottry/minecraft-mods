@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "hanging=false": { "model": "magiclanterns:block/magic_lantern" },
+    "hanging=true": { "model": "magiclanterns:block/hanging_magic_lantern" }
+  }
+}

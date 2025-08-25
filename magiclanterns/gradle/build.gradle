@@ -1,0 +1,6 @@
+dependencies {
+    // ... существующие зависимости
+    modImplementation "net.fabricmc.fabric-api:fabric-transfer-api-v1:${project.fabric_version}"
+}
+
+modImplementation "com.github.modrobius:cloth-config:11.0.98"

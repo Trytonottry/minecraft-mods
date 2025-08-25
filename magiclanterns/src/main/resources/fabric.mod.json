@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "magiclanterns",
+  "version": "1.0.0",
+  "name": "Magic Lanterns",
+  "description": "Adds magical lanterns that provide buffs and protection.",
+  "authors": ["Trytonottry"],
+  "contact": {
+    "homepage": "https://github.com/Trytonottry/Minecraft-mods",
+    "sources": "https://github.com/Trytonottry/Minecraft-mods/magiclanterns"
+  },
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.example.magiclanterns.MagicLanterns"
+    ]
+  },
+  "mixins": [
+    "magiclanterns.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.11",
+    "minecraft": "1.20.4",
+    "java": ">=17"
+  },
+  "suggests": {}
+}

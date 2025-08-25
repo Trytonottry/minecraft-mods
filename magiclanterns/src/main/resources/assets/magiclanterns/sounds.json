@@ -1,0 +1,7 @@
+{
+  "activate": {
+    "sounds": [
+      "magiclanterns:activate"
+    ]
+  }
+}
